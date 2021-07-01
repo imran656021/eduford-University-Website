@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png" type="image/gif" sizes="16x16">
+    <title>Eduford || Education for all!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="./images/logo.png" alt=""></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./blog.html">BLOG</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!-- --------------------sub-header part ends---------------- -->
+    <!-- -------------about us content------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident odit error maiores pariatur, consectetur recusandae, iure labore, impedit rem a minus! Amet dolorem iste iusto laudantium inventore maxime quibusdam labore. Lorem ipsum,
+                    dolor sit amet consectetur adipisicing elit. Nam explicabo corrupti ad vero officia autem, placeat officiis animi quaerat cumque.</p>
+                <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./images/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- -----------footer-------------------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, expedita! Lorem ipsum <br>dolor sit amet consectetur adipisicing elit. Autem, dolorem!</p>
+        <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function hideMenu() {
+            navLink.style.right = "1000px";
+        };
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+    </script>
+</body>
+
+</html>
